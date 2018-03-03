@@ -1,6 +1,9 @@
 package model;
 
 public class Fila {
+	
+	
+	//*****PARAMETROS DA FILA, ID E NOME
 	private int idfila;
 	private String nome;
 

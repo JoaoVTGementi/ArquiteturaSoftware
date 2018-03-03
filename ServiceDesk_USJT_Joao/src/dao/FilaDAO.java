@@ -22,7 +22,7 @@ public class FilaDAO {
 			throw new IOException(e);
 		 }
 	}
-	
+	//Listar a Fila de chamados no banco
 	public ArrayList<Fila> listarFilas() throws IOException {
 		String query = "select id_fila, nm_fila from fila";
 		ArrayList<Fila> filas = new ArrayList<>();

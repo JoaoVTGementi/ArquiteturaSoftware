@@ -36,7 +36,7 @@ public class ChamadoDAO {
 					.getTime()));
 			pst.setInt(4, chamado.getFila().getIdfila());
 			pst.execute();
-			// pegar o ultimo id inserido nesta sessao
+			// o ultimo ID inserido nessa sessão sera pego
 			try (PreparedStatement pst1 = conn
 					.prepareStatement("select LAST_INSERT_ID()");
 					ResultSet rs = pst1.executeQuery();) {

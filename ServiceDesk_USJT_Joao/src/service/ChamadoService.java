@@ -26,7 +26,7 @@ public class ChamadoService {
 	public ArrayList<Chamado> listarChamadosAbertos(Fila fila) throws IOException{
 		return dao.listarChamadosAbertos(fila);
 	}
-	
+	//Array para listar os chamados
 	public ArrayList<Chamado> listarChamados(Fila fila) throws IOException{
 		return dao.listarChamados(fila);
 	}
